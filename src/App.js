@@ -13,11 +13,11 @@ function App() {
       <p>1씩 증가</p>
       <button onClick={increase}>increase+1</button>
       <p>10씩 증가</p>
-      <button onClick={increaseBy(10)}>increase+10</button>
+      <button onClick={() => increaseBy(10)}>increase+10</button>
       <p>1씩 감소</p>
       <button onClick={decrease}>decrease-1</button>
       <p>10씩 감소</p>
-      <button onClick={decreaseBy(10)}>decrease-10</button>
+      <button onClick={() => decreaseBy(10)}>decrease-10</button>
     </div>
   );
 }
